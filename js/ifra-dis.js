@@ -1,8 +1,23 @@
-const iframe = document.querySelector('[name="ifr"]');
+const iframe = document.querySelector('[name="lmp"]');
 
-iframe.onload = function() {
-  console.log("The iframe is loaded");
+iframe.onhover = function() {
+  style.pointerEvents = "none";
 }
-iframe.onerror = function() {
-  console.log("Something wrong happened");
+iframe.onclick = function() {
+  style.pointerEvents = "auto";
 }
+iframe.onmouseup = function() {
+  style.pointerEvents = "none";
+}
+
+//const iframe = document.querySelector('[name="ifr"]');
+//
+//iframe.onhover = function() {
+//  style.pointerEvents = "none";
+//}
+//iframe.onclick = function() {
+//  style.pointerEvents = "auto";
+//}
+//iframe.onmouseup = function() {
+//  style.pointerEvents = "none";
+//}
