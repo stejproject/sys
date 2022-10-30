@@ -1,18 +1,31 @@
+/*Success*/
 .s {
-  background-color: #187900;
+  background-color: #4f943a;
   color: #fafafa;
 }
-
+/*Dangger*/
 .d {
-  background-color: rgb(115, 32, 32);
+  background-color: #d94848;
+  color: #fafafa;
+}
+/*Info*/
+.i {
+  background-color: #3cb9da;
   color: #fafafa;
 }
 
+/*[Transparent]*/
+/*Transparent*/
 .tr {
-  background-color: rgba(#fffcfc, 0.09);
+  background-color: rgba(#fff, 0.09);
 }
+/*Transparent-1*/
+.tr-1 {
+  background-color: transparent;
+}
+
 
 .defa {
-  background-color: transparent;
+  background-color: #fff;
   color: black;
 }
