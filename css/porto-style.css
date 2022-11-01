@@ -89,12 +89,12 @@
     width: 100%;
     margin: 5px 0 0 0;
     display: block;
-    border-radius: 0 0 30% 30%;
+    cursor: default;
 }
 
 #myInput:focus {
   outline: 1px solid #ddd;
-  border-radius: 0 0 30% 30%;
+  border-radius: 30% 30% 0 0;
   color: #202020;
 }
 
