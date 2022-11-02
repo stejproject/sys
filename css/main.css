@@ -55,6 +55,10 @@
   background-color: transparent;
 }
 
+.scrollbr::-webkit-scrollbar-thumb, .scrollbr::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
 /*parallax*/
 .par {
   /* Full height */
