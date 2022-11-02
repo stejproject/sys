@@ -48,6 +48,7 @@
 /*hidden scrollbar*/
 .scrollbr {
     scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 .scrollbr::-webkit-scrollbar {
   width: 0;
