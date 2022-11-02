@@ -163,17 +163,6 @@
   overflow: hidden;
 }
 
-.parallax {
-  /* Full height */
-  width: auto;
-  height: auto;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
 .icon-taskbar, .icon-taskbar-button {
   border: 1px solid #3e0d78;
   padding: 10px;
