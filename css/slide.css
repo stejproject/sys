@@ -109,7 +109,6 @@ img {
 /* Create a column layout with Flexbox */
 .row {
   display: flex;
-  background: #ddae3b;
   width: 100%;
 }
 
