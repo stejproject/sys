@@ -49,6 +49,7 @@
 .scrollbr {
     scrollbar-width: none;
     -ms-overflow-style: none;
+    overflow-wrap: anywhere;
 }
 .scrollbr::-webkit-scrollbar {
   width: 0;
