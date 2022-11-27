@@ -25,9 +25,9 @@
 
 .textin{
   font-size: 340%;
-  margin: calc(40% + 50px) auto auto;
+  margin: 28.115vh 10px;
+  display: flex;
   align-content: center;
-  display: grid;
   text-align: center;
   border-bottom: 1px solid;
 }
