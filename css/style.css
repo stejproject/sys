@@ -1,12 +1,9 @@
 .row {
-  background: linear-gradient(45deg, #cce4ec, #3c3ca8);
+  background: linear-gradient(45deg, #ece8cc, #dec646);
 }
 .con {
-  background: url(./images/logosma-sanyo-met.png) no-repeat;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  border-radius: 200px;
   background-color: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(5px);
 }
 .darkmode .row,
 .darkmode .desktop {
@@ -33,9 +30,6 @@
 }
 .left1 {
   padding: 8px 0;
-  background-color: #3f40aaeb;
-  color: deepskyblue;
-  width: auto;
   height: auto;
 }
 .darkmode .left1 {
