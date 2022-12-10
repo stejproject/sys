@@ -79,7 +79,7 @@
 
 #myInput {
     box-sizing: border-box;
-    background: transparent;
+    background: white;
     color: white;
     background-position: 14px 12px;
     background-repeat: no-repeat;
@@ -99,6 +99,9 @@
   color: #202020;
 }
 
+.myInput::-webkit-input-placeholder, .myInput:-moz-input-placeholder, .myInput:-ms-input-placeholder{
+	color: white;
+}
 .dropdown {
     position: relative;
     display: inline-block;
