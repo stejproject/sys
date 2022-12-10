@@ -16,7 +16,6 @@
   width: 100%;
   border: 1px solid;
   border-radius: 5px;
-  height: 35ch;
 }
 .card-img-top {
   width: inherit;
@@ -30,7 +29,7 @@
 }
 .left1 {
   padding: 8px 0;
-  height: auto;
+  height: 55vh;
 }
 .darkmode .left1 {
   background-color: #202020eb;
