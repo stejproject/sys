@@ -96,12 +96,16 @@
 #myInput:focus {
   outline: 1px solid #ddd;
   border-radius: 30% 30% 0 0;
-  color: #202020;
 }
 
-.myInput::-webkit-input-placeholder, .myInput:-moz-input-placeholder, .myInput:-ms-input-placeholder{
-	color: white;
+input[type=text]{
+color:white;
+transition:all 0.5s ease;
 }
+input[type=text]:focus{
+  color:#202020;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
