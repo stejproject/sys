@@ -2,7 +2,7 @@
 .darkmode,
 .darkmode .dropdown-content, .darkmode .disqus-contact{
   background-color: #202020;
-  background-size: cover;
+  background-size: auto;
   background-attachment: scroll;
   background-repeat: repeat;
   color: #fff;
