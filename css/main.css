@@ -50,11 +50,6 @@
     scrollbar-width: none;
     -ms-overflow-style: none;
     overflow-wrap: anywhere;
-    border: 1px solid;
-    box-shadow: rgb(136, 136, 136) 20px 20px;
-    margin: 10px auto;
-    overflow-y: scroll;
-    height: 65ch;
 }
 .scrollbr::-webkit-scrollbar {
   width: 0;
@@ -76,4 +71,12 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+}
+
+.article{
+  border: 1px solid;
+  box-shadow: rgb(136, 136, 136) 20px 20px;
+  margin: 10px auto;
+  overflow-y: scroll;
+  height: 65ch;
 }
