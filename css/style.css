@@ -5,12 +5,14 @@
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   background-color: rgba(255, 255, 255, 0.15);
 }
-.darkmode .row,
-.darkmode .desktop {
+.darkmode .row{
   background: linear-gradient(45deg, #034fa7, #cce4ec);
 }
 .desktop {
   background: #ffffff;
+}
+.darkmode .desktop {
+  background: #ffffff00;
 }
 .card {
   width: 100%;
