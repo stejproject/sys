@@ -34,6 +34,7 @@
 }
 
 .darkmode .icon-taskbar-button {
+  background: linear-gradient(45deg, #034fa7, #cce4ec);
   text-decoration: none;
   color: yellow;
   transition: 0.4s;
