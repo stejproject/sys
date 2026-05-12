@@ -34,13 +34,7 @@
 }
 
 .darkmode .icon-taskbar-button {
-  border: 1px solid #3e0d78;
-  padding: 10px;
-  background: #3e0d78;
   text-decoration: none;
-  font-size: 18px;
-  border-radius: 2.375rem;
-  font-weight: bold;
   color: yellow;
   transition: 0.4s;
   cursor: pointer;
