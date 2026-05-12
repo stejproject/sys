@@ -103,6 +103,9 @@ img {
   .text {
     font-size: 11px
   }
+  .article{
+    height: 76vh;
+  }
 }
 
 /* Create a column layout with Flexbox */
@@ -116,6 +119,9 @@ img {
   .row {
      display: grid;
    }
+  .article{
+    height: 80vh;
+  }
 }
 
 /* sliding effects */
