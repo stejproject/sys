@@ -122,6 +122,11 @@ img {
   .article{
     height: 80vh;
   }
+  zero-md {
+    width: 87vw;
+    height: 50vh;
+    overflow: auto;
+  }
 }
 
 /* sliding effects */
