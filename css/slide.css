@@ -119,6 +119,9 @@ img {
   zero-md {
     width: 87vw !important;
   }
+  .article{
+    height:87vh !important;
+  }
 }
 
 /* sliding effects */
