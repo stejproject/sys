@@ -134,7 +134,7 @@ body::-webkit-scrollbar-track {
     padding: 12px 45px;
     border: none;
     border-bottom: 1px solid #ddd;
-    width: 100%;
+    width: 63%;
     margin: 5px 0 0 0;
     position: fixed;
     display: block;
