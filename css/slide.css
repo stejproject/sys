@@ -101,10 +101,7 @@ img {
   .prev,
   .next,
   .text {
-    font-size: 11px
-  }
-  .article{
-    height: 76vh;
+    font-size: 11px !important;
   }
 }
 
@@ -119,13 +116,8 @@ img {
   .row {
      display: grid;
    }
-  .article{
-    height: 80vh;
-  }
   zero-md {
-    width: 87vw;
-    height: 50vh;
-    overflow: auto;
+    width: 87vw !important;
   }
 }
 
