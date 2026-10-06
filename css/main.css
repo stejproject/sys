@@ -81,7 +81,7 @@
 }
 
 zero-md{
-  width:50%;
+  padding:7px;
   height:50vh;
   overflow-y:scroll;
   overflow-x:hidden;
