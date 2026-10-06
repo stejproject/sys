@@ -24,12 +24,13 @@
 }*/
 
 .textin{
-  font-size: normal;
-  margin: 28.115vh 10px auto;
-  display: flex;
-  align-content: center;
-  text-align: center;
-  border-bottom: 1px solid;
+    font-size: medium;
+    margin: 28.115vh 10px;
+    align-content: center;
+    text-align: center;
+    border-bottom: 1px solid;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 /* Left column (menu) */
