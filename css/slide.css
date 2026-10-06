@@ -117,7 +117,7 @@ img {
      display: grid;
    }
   zero-md {
-    width: 87vw !important;
+    width: 100vw !important;
   }
   .article{
     height:87vh !important;
