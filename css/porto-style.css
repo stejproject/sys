@@ -278,8 +278,7 @@ embed, iframe{
 }
 
 .project, .information  {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
   display: block;
 }
 
