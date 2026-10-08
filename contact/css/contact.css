@@ -53,3 +53,10 @@
 .d-none{
   display: none;
 }
+
+.pro 1{
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    padding: 0 16px;
+}
