@@ -8,9 +8,6 @@
 .darkmode .row{
   background: linear-gradient(45deg, #034fa7, #cce4ec);
 }
-.desktop {
-  background: #ffffff;
-}
 .darkmode .desktop {
   background: #ffffff00;
 }
