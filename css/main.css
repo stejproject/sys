@@ -74,10 +74,11 @@
 }
 
 .article{
-  border: 1px solid;
-  box-shadow: rgb(136, 136, 136) 10px 10px;
-  margin: 3px auto;
+  border: 1.5px solid;
+  box-shadow: 10px 10px 0px #2C2C2C;
+  margin: 3px 0;
   height: 89vh;
+  padding: 3px;
 }
 
 zero-md{
