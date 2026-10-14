@@ -79,6 +79,9 @@
   margin: 3px 0;
   height: 89vh;
   padding-top: 7px;
+  grid-template-columns: 1fr 0.5fr;
+  gap: 40px;
+  grid-auto-flow: row;
 }
 
 zero-md{
