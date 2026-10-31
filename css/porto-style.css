@@ -240,7 +240,12 @@ input[type=text]:focus{
 
 .more{
   margin: -45px 0 0;
-  display: fixed;
+  display: flex;
+}
+
+.more > button{
+  height: 45px;
+  padding: 12px;
 }
 
 .des-icon{
