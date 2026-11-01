@@ -28,7 +28,7 @@ a.new{color:var(--red)}
 #tabs li{background:var(--bg);border:1px solid var(--line);border-bottom:0;margin-right:2px}
 #tabs li.selected{background:var(--page);font-weight:600}
 #tabs li a{display:block;padding:7px 14px}
-#content{background:var(--page);border:1px solid var(--line);padding:20px 28px 28px;max-height:83vh}
+#content{background:var(--page);border:1px solid var(--line);padding:20px 28px 28px;max-height:83vh;overflow-y:scroll}
 #page-title{font:400 1.9em Georgia,"Linux Libertine",serif;margin:0 0 .5em;border-bottom:1px solid var(--line);padding-bottom:.2em}
 #page-body h2{font:400 1.5em Georgia,serif;border-bottom:1px solid var(--line);margin:1.2em 0 .5em;padding-bottom:.1em}
 #page-body h3{font-size:1.15em;margin:1em 0 .4em}
