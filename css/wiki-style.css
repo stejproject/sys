@@ -13,7 +13,7 @@ a:hover{text-decoration:underline}
 a.new{color:var(--red)}
 #topbar{display:flex;align-items:center;gap:12px;padding:8px 16px;background:var(--page);border-bottom:1px solid var(--line)}
 #site-title{font:700 1.4em Georgia,serif;color:var(--text)}
-#menu-btn{display:none;background:none;border:0;font-size:22px;color:var(--text);cursor:pointer}
+#menu-btn{display:none;cursor:pointer}
 #search-form{margin-left:auto;display:flex;gap:4px}
 #search-input{padding:6px 10px;border:1px solid var(--line);border-radius:2px;background:var(--page);color:var(--text);width:220px}
 #search-form button{padding:6px 12px;border:1px solid var(--line);background:var(--code);color:var(--text);cursor:pointer;border-radius:2px}
