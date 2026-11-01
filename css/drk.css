@@ -124,7 +124,10 @@
   color: #27e300;
 }
 
-.darkmode .wiki, .darkmode #tabs li, .darkmode #tabs li a, .darkmode #content, .darkmode #page-categories, .darkmode #sidebar {
+.darkmode .wiki, .darkmode #tabs li, .darkmode #tabs li a, .darkmode #content,
+.darkmode #page-categories, .darkmode #sidebar, .darkmode #topbar, .darkmode .toc, 
+.darkmode #google_translate_element, .darkmode #search-input, 
+.darkmode #search-form button, .darkmode .portal h3{
   background: #202020;
   color: white;
 }
