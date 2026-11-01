@@ -10,18 +10,18 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  opacity: 0.5;
+  max-width: 80vw;
   margin: auto;
   height: 50%;
 }
 
 .slideshow-container:hover {
-  max-width: 500px;
-  margin: auto;
+  opacity: 1.0;
 }
 
 .slideshow-container:active {
-  opacity: 0.5;
+  opacity: 1.0;
 }
 
 /* Next & previous buttons */
