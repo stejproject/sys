@@ -12,24 +12,24 @@ a{color:var(--link);text-decoration:none}
 a:hover{text-decoration:underline}
 a.new{color:var(--red)}
 #topbar{display: flex;gap: 12px;padding: 0px 16px;background: var(--page);border-bottom: 1px solid var(--line);align-items: flex-end;justify-content: space-between;}
-#site-title{font:700 1.4em Georgia,serif;color:var(--text)}
+#site-title{font:700 1.4em Marcellus,serif;color:var(--text)}
 #menu-btn{display:none;cursor:pointer}
 #search-form{margin-left:auto;display:flex;gap:4px}
 #search-input{padding:6px 10px;border:1px solid var(--line);border-radius:2px;background:var(--page);color:var(--text);width:220px}
 #search-form button{padding:6px 12px;border:1px solid var(--line);background:var(--code);color:var(--text);cursor:pointer;border-radius:2px}
 #layout{display:flex;max-width:1200px;margin:0 auto}
 #sidebar{width:176px;flex:none;padding:16px 8px 16px 16px;font-size:13px}
-.portal h3{font-size:11px;color:var(--muted);text-transform:uppercase;margin:16px 0 4px;padding-bottom:2px;border-bottom:1px solid var(--line)}
+.portal h3{font-size:11px;color:var(--muted);text-transform:uppercase;margin:16px 0 4px;}
 .portal ul{list-style:none;margin:0;padding:0}
 .portal li{padding:3px 0}
 #content-wrap{flex:1;min-width:0;padding-top:16px}
 #tabs{display:flex;font-size:13px;margin-right:8px}
 #tabs ul{display:flex;list-style:none;margin:0;padding:0}
-#tabs li{background:var(--bg);border:solid var(--line);border-bottom:0;margin-right:2px;border-width: 1px 0px 0px 1px;}
+#tabs li{background:var(--bg);border:solid var(--line);border-bottom:0;margin-right:2px;border-width: 1px 0px 0px 0px;}
 #tabs li.selected{background:var(--page);font-weight:600}
 #tabs li a{display:block;padding:7px 14px}
 #content{background:var(--page);border:solid var(--line);padding:20px 28px 28px;max-height:79vh;overflow-y:scroll;border-width: 0px 0px 0px 1px;}
-#page-title{font:400 1.9em Georgia,"Linux Libertine",serif;margin:0 0 .5em;border-bottom:1px solid var(--line);padding-bottom:.2em}
+#page-title{font: 400 2.9em "Marcellus", serif;margin: 0 0 .5em;border-inline: 6px solid var(--line);padding: .2em;text-align: center;}
 #page-body h2{font:400 1.5em Georgia,serif;border-bottom:1px solid var(--line);margin:1.2em 0 .5em;padding-bottom:.1em}
 #page-body h3{font-size:1.15em;margin:1em 0 .4em}
 #page-body h4{font-size:1em;margin:1em 0 .3em}
