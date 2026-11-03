@@ -1,12 +1,12 @@
 :root{
-  --bg:none; --page:none; --text:#202122; --muted:#54595d; --border:#a7d7f9;
+  --bg:#fcfbfa; --page:none; --text:#202122; --muted:#54595d; --border:#a7d7f9;
   --link:#0645ad; --visited:#0b0080; --red:#ba0000; --accent:#36c; --line:#c8ccd1;
   --code:#f8f9fa;
 }
-@media (prefers-color-scheme: dark){
+/* @media (prefers-color-scheme: dark){
   :root{--bg:none; --page:none; --text:#e6e6e6; --muted:#9aa4ad; --border:#2a4a6a;
     --link:#6ea8fe; --visited:#b39ddb; --red:#ff6b6b; --accent:#6ea8fe; --line:#30363d; --code:#1c2128;}
-}
+} */
 .wiki {margin:0;line-break:anywhere;background:var(--bg);color:var(--text);font:15px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 a{color:var(--link);text-decoration:none}
 a:hover{text-decoration:underline}
