@@ -29,7 +29,7 @@ a.new{color:var(--red)}
 #tabs li.selected{background:var(--page);font-weight:600}
 #tabs li a{display:block;padding:7px 14px}
 #content{background:var(--page);border:solid var(--line);padding:20px 28px 28px;max-height:79vh;overflow-y:scroll;border-width: 0px 0px 0px 1px;}
-#page-title{font: 400 2.9em "Marcellus", serif;margin: 0 0 .5em;border-inline: 6px solid var(--line);padding: .2em;text-align: center;}
+#page-title{font: 400 1.9em "Marcellus", serif;margin: 0 0 .5em;border-inline: 6px solid var(--line);padding: .2em;text-align: center;}
 #page-body h2{font:400 1.5em Georgia,serif;border-bottom:1px solid var(--line);margin:1.2em 0 .5em;padding-bottom:.1em}
 #page-body h3{font-size:1.15em;margin:1em 0 .4em}
 #page-body h4{font-size:1em;margin:1em 0 .3em}
@@ -72,4 +72,4 @@ a.new{color:var(--red)}
 .accordion .acc-panel{padding:4px 18px 10px;border:1px solid #3e0d78;border-top:0;
   border-radius:0 0 .375rem .375rem;max-height:60vh;overflow:auto}
 .accordion .acc-panel[hidden]{display:none}
-#google_translate_element{overflow:auto; height:30%;width:26vw;}
+#google_translate_element{overflow:auto; height:30%;width:17vw;}
