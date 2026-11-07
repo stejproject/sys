@@ -1,6 +1,6 @@
 :root{
   --bg:#fcfbfa; --page:none; --text:#202122; --muted:#54595d; --border:#a7d7f9;
-  --link:#0645ad; --visited:#0b0080; --red:#ba0000; --accent:#36c; --line:#c8ccd1;
+  --link:#0645ad; --visited:#0b0080; --red:#ba0000; --accent:#36c; --line:#700d78;
   --code:#f8f9fa;
 }
 /* @media (prefers-color-scheme: dark){
@@ -29,7 +29,7 @@ a.new{color:var(--red)}
 #tabs li.selected{background:var(--page);font-weight:600}
 #tabs li a{display:block;padding:7px 14px}
 #content{background:var(--page);border:solid var(--line);padding:20px 28px 28px;max-height:79vh;overflow-y:scroll;border-width: 0px 0px 0px 1px;}
-#page-title{font: 400 1.3em "Marcellus", serif;margin: 0 0 .1em;border-inline: 6px solid var(--line);padding: .2em;text-align: center;}
+#page-title{font: 900 1.3em "Marcellus", serif;margin: 0 0 .1em;border-top: 6px solid var(--line);padding: .2em;text-align: center;}
 #page-body h2{font:400 1.5em Georgia,serif;border-bottom:1px solid var(--line);margin:1.2em 0 .5em;padding-bottom:.1em}
 #page-body h3{font-size:1.15em;margin:1em 0 .4em}
 #page-body h4{font-size:1em;margin:1em 0 .3em}
