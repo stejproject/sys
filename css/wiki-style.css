@@ -1,7 +1,7 @@
 :root{
   --bg:#fcfbfa; --page:none; --text:#202122; --muted:#54595d; --border:#a7d7f9;
   --link:#0645ad; --visited:#0b0080; --red:#ba0000; --accent:#36c; --line:#700d78;
-  --code:#f8f9fa;
+  --code:#bbb569;
 }
 /* @media (prefers-color-scheme: dark){
   :root{--bg:none; --page:none; --text:#e6e6e6; --muted:#9aa4ad; --border:#2a4a6a;
