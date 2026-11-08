@@ -28,7 +28,7 @@ a.new{color:var(--red)}
 #tabs li{background:var(--bg);border:solid var(--line);border-bottom:0;margin-right:2px;border-width: 1px 0px 0px 0px;}
 #tabs li.selected{background:var(--page);font-weight:600}
 #tabs li a{display:block;padding:7px 14px}
-#content{background:var(--page);border:solid var(--line);padding:20px 28px 28px;max-height:79vh;overflow-y:scroll;border-width: 0px 0px 0px 1px;}
+#content{background:var(--page);padding:20px 28px 28px;max-height:79vh;overflow-y:auto;}
 #page-title{font: 900 1.3em "Marcellus", serif;margin: 0 0 .1em;border-top: 6px solid var(--line);padding: .2em;text-align: center;}
 #page-body h2{font:400 1.5em Georgia,serif;border-bottom:1px solid var(--line);margin:1.2em 0 .5em;padding-bottom:.1em}
 #page-body h3{font-size:1.15em;margin:1em 0 .4em}
@@ -65,10 +65,11 @@ a.new{color:var(--red)}
 /* Perubahan terbaru: feed akordeon gaya TikTok (hanya CSS) */
 #page-body ul.accordion{
   list-style:none; margin:16px auto; padding:0;
-  width:min(100%,400px) !important; height:min(78vh,680px);
+  width:min(100%,400px) !important; height:78vh;
   overflow-y:auto; scroll-behavior:smooth;
   scroll-snap-type:y mandatory; overscroll-behavior:contain; scrollbar-width:none;
-  background:#000; border-radius:22px; box-shadow:0 24px 60px rgba(0,0,0,.35);
+  background:#000; border-radius:22px;
+  border:solid var(--line);border-width: 0px 0px 0px 1px;
   counter-reset:tt;
 }
 #page-body .accordion::-webkit-scrollbar{display:none}
