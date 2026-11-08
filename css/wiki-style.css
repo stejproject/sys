@@ -70,13 +70,11 @@ a.new{color:var(--red)}
   scroll-snap-type:y mandatory; overscroll-behavior:contain; scrollbar-width:none;
   background:#000; border-radius:22px;
   border:solid var(--line);border-width: 0px 0px 0px 1px;
-  counter-reset:tt 101;
 }
 #page-body .accordion::-webkit-scrollbar{display:none}
 
 #page-body .accordion > li{
-  --h:285; counter-increment:tt -1;
-  position:relative; height:100%; margin:0; padding:0;
+  --h:285; position:relative; height:100%; margin:0; padding:0;
   scroll-snap-align:start; scroll-snap-stop:always; overflow:hidden;
   background:
     radial-gradient(120% 70% at 15% 8%,hsl(var(--h) 85% 40% / .55),transparent 60%),
@@ -91,7 +89,7 @@ a.new{color:var(--red)}
 
 /* nomor urut samar + gelapkan bagian bawah */
 #page-body .accordion > li::before{
-  content:counter(tt,decimal-leading-zero);
+  background:url("https://raw.githubusercontent.com/stejproject/stejproject.github.io/main/favicon-128.png");
   position:absolute; left:10px; top:8px; font-size:110px; font-weight:800; line-height:1;
   letter-spacing:-.04em; color:transparent; -webkit-text-stroke:1.5px rgba(255,255,255,.14);
   text-shadow:-3px 0 rgba(37,244,238,.2),3px 0 rgba(254,44,85,.2); pointer-events:none;
