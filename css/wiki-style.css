@@ -1,5 +1,5 @@
 :root{
-  --bg:#fcfbfa; --page:none; --text:#202122; --muted:#54595d; --border:#a7d7f9;
+  --bg:#fcfbfa; --page:#fcfbfa; --text:#202122; --muted:#54595d; --border:#a7d7f9;
   --link:#0645ad; --visited:#0b0080; --red:#ba0000; --accent:#36c; --line:#700d78;
   --code:#bbb569;
 }
@@ -18,7 +18,7 @@ a.new{color:var(--red)}
 #search-input{padding:6px 10px;border:1px solid var(--line);border-radius:2px;background:var(--page);color:var(--text);width:220px}
 #search-form button{padding:6px 12px;border:1px solid var(--line);background:var(--code);color:var(--text);cursor:pointer;border-radius:2px}
 #layout{display:flex;max-width:1200px;margin:0 auto}
-#sidebar{max-width: 176px;flex: none;padding: 16px 8px 16px 16px;font-size: 13px;min-width: 0px;resize: horizontal;overflow-x: auto;}
+#sidebar{max-width: 176px;flex: none;padding: 7px;font-size: 13px;min-width: 67px;resize: horizontal;overflow: auto;box-sizing: border-box;overflow-wrap: break-word;white-space: normal;word-break: break-word;}
 .portal h3{font-size:11px;color:var(--muted);text-transform:uppercase;margin:16px 0 4px;}
 .portal ul{list-style:none;margin:0;padding:0}
 .portal li{padding:3px 0}
