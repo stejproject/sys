@@ -70,12 +70,12 @@ a.new{color:var(--red)}
   scroll-snap-type:y mandatory; overscroll-behavior:contain; scrollbar-width:none;
   background:#000; border-radius:22px;
   border:solid var(--line);border-width: 0px 0px 0px 1px;
-  counter-reset:tt;
+  counter-reset:tt 101;
 }
 #page-body .accordion::-webkit-scrollbar{display:none}
 
 #page-body .accordion > li{
-  --h:285; counter-increment:tt;
+  --h:285; counter-increment:tt -1;
   position:relative; height:100%; margin:0; padding:0;
   scroll-snap-align:start; scroll-snap-stop:always; overflow:hidden;
   background:
