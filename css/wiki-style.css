@@ -51,8 +51,71 @@ a.new{color:var(--red)}
 .notice{border:1px solid var(--line);background:var(--code);padding:10px 14px}
 .result{margin:0 0 12px}
 .result .snip{color:var(--muted);font-size:13px}
-.cols{columns:3 200px}
-.cols li{break-inside:avoid}
+
+/* Katalog gaya TikTok (hanya CSS) */
+#page-body .cols{
+  columns:auto;                     /* matikan 3 kolom lama */
+  list-style:none; margin:16px auto; padding:0;
+  width:min(100%,400px); height:min(78vh,680px);
+  overflow-y:auto; scroll-behavior:smooth;
+  scroll-snap-type:y mandatory; overscroll-behavior:contain; scrollbar-width:none;
+  background:#000; border-radius:22px;
+  box-shadow:0 24px 60px rgba(0,0,0,.35);
+  counter-reset:tt;
+}
+#page-body .cols::-webkit-scrollbar{display:none}
+
+#page-body .cols li{
+  --h:285; counter-increment:tt;
+  position:relative; height:100%; margin:0; padding:0;
+  break-inside:auto;
+  scroll-snap-align:start; scroll-snap-stop:always; overflow:hidden;
+  background:
+    radial-gradient(120% 70% at 15% 8%,hsl(var(--h) 85% 40% / .55),transparent 60%),
+    radial-gradient(90% 60% at 95% 78%,hsl(calc(var(--h) + 55) 85% 42% / .38),transparent 62%),
+    #0c0c11;
+}
+#page-body .cols li:nth-child(6n+2){--h:330}
+#page-body .cols li:nth-child(6n+3){--h:195}
+#page-body .cols li:nth-child(6n+4){--h:20}
+#page-body .cols li:nth-child(6n+5){--h:145}
+#page-body .cols li:nth-child(6n+6){--h:235}
+
+/* nomor besar samar di latar */
+#page-body .cols li::before{
+  content:counter(tt,decimal-leading-zero);
+  position:absolute; left:10px; top:6px; font-weight:800; font-size:150px; line-height:1;
+  letter-spacing:-.04em; color:transparent; -webkit-text-stroke:1.5px rgba(255,255,255,.14);
+  text-shadow:-3px 0 rgba(37,244,238,.2),3px 0 rgba(254,44,85,.2); pointer-events:none;
+}
+/* gelapkan bagian bawah */
+#page-body .cols li::after{
+  content:""; position:absolute; inset:auto 0 0 0; height:55%;
+  background:linear-gradient(to top,rgba(0,0,0,.72),transparent); pointer-events:none;
+}
+
+/* seluruh kartu adalah tautan */
+#page-body .cols li a,
+#page-body .cols li a:visited{
+  position:absolute; inset:0; z-index:2;
+  display:flex; flex-direction:column; justify-content:center; gap:12px;
+  padding:60px 24px 24px;
+  color:#fff; text-decoration:none;
+  font-weight:800; font-size:clamp(26px,7vw,34px); line-height:1.1; letter-spacing:-.02em;
+  text-wrap:balance; overflow-wrap:anywhere;
+}
+#page-body .cols li a::before{
+  content:"Halaman " counter(tt,decimal-leading-zero);
+  font-size:12px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:#25f4ee;
+}
+#page-body .cols li a::after{
+  content:"Buka halaman";
+  align-self:flex-start; margin-top:14px;
+  background:#fe2c55; color:#fff; font-size:14px; font-weight:800;
+  padding:9px 16px; border-radius:6px;
+}
+#page-body .cols li a:hover::after{filter:brightness(1.12)}
+#page-body .cols li a:focus-visible{outline:2px solid #25f4ee; outline-offset:-4px}
 
 @media (max-width:760px){
   #menu-btn{display:block}
