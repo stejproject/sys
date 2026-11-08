@@ -87,13 +87,13 @@ a.new{color:var(--red)}
 #page-body .accordion > li:nth-child(6n+5){--h:145}
 #page-body .accordion > li:nth-child(6n+6){--h:235}
 
-/* nomor urut samar + gelapkan bagian bawah */
+/* logo kecil di kiri atas kartu */
 #page-body .accordion > li::before{
-  background:url("https://raw.githubusercontent.com/stejproject/stejproject.github.io/main/favicon-128.png");
-  position:absolute; left:10px; top:8px; font-size:110px; font-weight:800; line-height:1;
-  letter-spacing:-.04em; color:transparent; -webkit-text-stroke:1.5px rgba(255,255,255,.14);
-  text-shadow:-3px 0 rgba(37,244,238,.2),3px 0 rgba(254,44,85,.2); pointer-events:none;
+  content:""; position:absolute; left:22px; top:16px; width:52px; height:52px;
+  background:url("https://raw.githubusercontent.com/stejproject/stejproject.github.io/main/favicon-128.png") center/contain no-repeat;
+  border-radius:12px; pointer-events:none;
 }
+
 #page-body .accordion > li::after{
   content:""; position:absolute; inset:auto 0 0 0; height:55%;
   background:linear-gradient(to top,rgba(0,0,0,.72),transparent); pointer-events:none;
