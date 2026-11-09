@@ -56,7 +56,7 @@ a.new{color:var(--red)}
 
 @media (max-width:760px){
   #menu-btn{display:block}
-  #sidebar{display:none;position:absolute;z-index:10;background:var(--page);border:1px solid var(--line);top:48px;left:0}
+  #sidebar{display:none;position:absolute;z-index:10;background:var(--page);border:1px solid var(--line);top:48px;left:0;min-width:143px !important;}
   #sidebar.open{display:block}
   #search-input{width:130px}
   #content{padding:14px}
