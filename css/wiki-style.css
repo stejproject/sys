@@ -18,7 +18,7 @@ a.new{color:var(--red)}
 #search-input{padding:6px 10px;border:1px solid var(--line);border-radius:2px;background:var(--page);color:var(--text);width:220px}
 #search-form button{padding:6px 12px;border:1px solid var(--line);background:var(--code);color:var(--text);cursor:pointer;border-radius:2px}
 #layout{display:flex;max-width:1200px;margin:0 auto}
-#sidebar{max-width: 176px;flex: none;padding: 7px;font-size: 13px;min-width: 67px;resize: horizontal;overflow: auto;box-sizing: border-box;display: grid;align-content: start;}
+#sidebar{max-width: 176px;flex: none;padding: 7px;font-size: 13px;min-width: 17px;resize: horizontal;overflow: auto;box-sizing: border-box;display: grid;align-content: start;}
 .portal h3{font-size:11px;color:var(--muted);text-transform:uppercase;margin:16px 0 4px;}
 .portal ul{list-style:none;margin:0;padding:0}
 .portal li{padding:3px 0}
