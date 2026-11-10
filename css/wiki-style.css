@@ -7,7 +7,7 @@
   :root{--bg:none; --page:none; --text:#e6e6e6; --muted:#9aa4ad; --border:#2a4a6a;
     --link:#6ea8fe; --visited:#b39ddb; --red:#ff6b6b; --accent:#6ea8fe; --line:#30363d; --code:#1c2128;}
 } */
-.wiki {margin:5mm 0;line-break:anywhere;background:var(--bg);color:var(--text);font:15px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;height: 87vh;}
+.wiki {margin:5mm 0;line-break:anywhere;background:var(--bg);color:var(--text);font:15px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;height:100vh;}
 a{color:var(--link);text-decoration:none}
 a:hover{text-decoration:underline}
 a.new{color:var(--red)}
@@ -60,6 +60,7 @@ a.new{color:var(--red)}
   #sidebar.open{display:block}
   #search-input{width:130px}
   #content{padding:14px}
+  #topbar{flex-direction: column;}
 }
 
 /* Perubahan terbaru: feed akordeon gaya TikTok (hanya CSS) */
