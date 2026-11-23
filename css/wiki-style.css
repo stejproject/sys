@@ -30,7 +30,7 @@ a.new{color:var(--red)}
 #tabs li{background:var(--bg);border:solid var(--line);border-bottom:0;margin-right:2px;border-width: 0px 0px 0px 1px;}
 #tabs li.selected{background:var(--page);font-weight:600}
 #tabs li a{display:block;padding:7px 14px}
-#content{background:var(--page);margin: 0px 28px;padding:0px 28px;max-height:59vh;overflow-y:auto;border-radius:22px;border:solid var(--line);border-width: 0px 0px 0px 1px;}
+#content{background:var(--page);margin: 0px 28px;padding:0px 28px;max-height:59vh;overflow-y:auto;border-radius:22px;}
 #page-title{font: 900 1.3em "Marcellus", serif;margin: 0 0 .1em;border-top: 6px solid var(--line);padding: .2em;text-align: center;}
 #page-body h2{font:400 1.5em Georgia,serif;border-left:1px solid var(--line);margin:1.2em 0 .5em;padding-left:.1em}
 #page-body h3{font-size:1.15em;margin:1em 0 .4em}
@@ -47,7 +47,7 @@ a.new{color:var(--red)}
 .toc-title{font-weight:700;text-align:center}
 .toc ol{margin:4px 0;padding-left:1.4em}
 .toc ol ol{padding-left:1.2em}
-#page-categories{margin-top:2em;border:1px solid var(--line);background:var(--bg);padding:6px 10px;font-size:13px}
+#page-categories{margin-top:2em;border:solid var(--line);border-width: 0px 1px;background:var(--bg);padding:6px 10px;font-size:13px}
 #page-categories:empty{display:none}
 #page-footer{margin-top:1.5em;color:var(--muted);font-size:12px}
 .notice{border:1px solid var(--line);background:var(--code);padding:10px 14px}
