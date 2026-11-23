@@ -47,7 +47,7 @@ a.new{color:var(--red)}
 .toc-title{font-weight:700;text-align:center}
 .toc ol{margin:4px 0;padding-left:1.4em}
 .toc ol ol{padding-left:1.2em}
-#page-categories{margin-top:2em;border:solid var(--line);border-width: 0px 1px;background:var(--bg);padding:6px 10px;font-size:13px}
+#page-categories{margin-top:2em;border:solid var(--line);border-width: 0px 1px;border-radius:13px;background:var(--bg);padding:6px 10px;font-size:13px}
 #page-categories:empty{display:none}
 #page-footer{margin-top:1.5em;color:var(--muted);font-size:12px}
 .notice{border:1px solid var(--line);background:var(--code);padding:10px 14px}
